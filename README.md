@@ -67,3 +67,5 @@ Current issues / Future enhancements (in case anyone wants to try and fix them)
 License
 -------
 MIT-style. Use at your own risk. ZERO WARRANTY
+Any reference to any Apple Trademarks are purely educational and / or entertainment-related. All Apple-registered trademarks are property of Apple, INC. 
+Any song referenced is owned by its respective copyright holder, not myself. I do not claim ownership of any songs used in this github. 
