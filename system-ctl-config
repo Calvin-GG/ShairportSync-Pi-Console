@@ -1,0 +1,15 @@
+[Unit]
+Description=AirPlay Player UI
+After=graphical.target
+Wants=graphical.target
+
+[Service]
+User=pi
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/pi/.Xauthority
+ExecStart=/usr/bin/python3 /home/pi/airplay_player/player_ui.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=graphical.target
