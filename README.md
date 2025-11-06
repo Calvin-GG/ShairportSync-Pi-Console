@@ -1,6 +1,8 @@
 Player UI for Shairport Sync Metadata (Tkinter)
 by: calvin guerrero
 
+Video Demo: https://www.youtube.com/watch?v=-RK_FmMaJno&t=93s
+
 What this is
 ------------
 A single-file Tkinter UI (`player_ui.py`) designed for a Raspberry Pi 3.5" TFT touch screen. It displays:
