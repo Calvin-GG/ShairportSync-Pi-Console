@@ -41,6 +41,13 @@ python3 player_ui.py
 ```
 
 4. (optional) add the script to start on boot
+- run sudo nano /etc/systemd/system/player-ui.service
+- paste the contents from system-ctl-config in this repo
+- save and exit
+- run
+    ```sudo systemctl daemon-reload
+      systemctl enable player-ui.service to enable the service```
+- now on restart the service should automatically show up on the screen!
 
 If you prefer the UI not to listen to the metadata pipe (for example, if another metadata consumer is already running), the UI will still display the most recent image from `/tmp/shairport-sync/.cache/coverart` and uses placeholder text for metadata if none was read.
 
