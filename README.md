@@ -45,8 +45,10 @@ python3 player_ui.py
 - paste the contents from system-ctl-config in this repo
 - save and exit
 - run
-    ```sudo systemctl daemon-reload
-    ```systemctl enable player-ui.service to enable the service
+  ```
+    sudo systemctl daemon-reload
+    systemctl enable player-ui.service to enable the service
+   ``` 
     
 - now on restart the service should automatically show up on the screen!
 
