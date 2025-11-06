@@ -201,7 +201,7 @@ class PlayerUI(tk.Tk):
             track = "Connect to Play Music"
             artist = "Open AirPlay on your device and select 'Receiver'"
             album = "made by calvin guerrero"
-            picture_file = "airplaylogo.png"
+            picture_file = " /home/pi/airplay_player/airplaylogo.png"
 
         if not picture_file:
             picture_file = most_recent_cover()
